@@ -5,6 +5,13 @@ A managed URL shorten-er service, build using Redis and Go Fibre
 
 `!!! Having a running Dockerdaemon is a must. !!!` <br>
 
+#### Clone the repo
+
+```console
+$ git clone https://github.com/Neelaksh-Singh/urlShortner.git
+$ cd urlShortener/
+```
+
 #### Create a `.env` file *locally* 
 
 Create a `.env` file in the root of your project and insert
@@ -21,8 +28,6 @@ API_QUOTA=<your_desired_limit>
 Now once the setup is done, do the following :=>
 
 ```console
-$ git clone https://github.com/Neelaksh-Singh/urlShortner.git
-$ cd urlShortener/
 $ docker-compose up -d
 ```
 You are all set to use your very own urlShortner API.
